@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Click Race</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Hello! Lets Click Race to 100!</h1>
+    </div>
+    <div id="form-wrapper">
+      <form id="input-form" method="POST">
+        <h2>Enter your name and race Speed Clicker!</h2>
+        <input id="name" type="text" placeholder="Name" />
+        <button class="btn" id="submit-btn">Submit</button>
+      </form>
+      <div id="click-wrapper">
+        <div id="winner">Start Clicking!</div>
+        <div id="click-container">
+          <div id="output">P1</div>
+          <button class="btn" id="count-btn" disabled="true">Click!</button>
+          <div id="count">0</div>
+        </div>
+        <h2>SpeedClicker: <span id="speedClick"></span></h2>
+      </div>
+    </div>
+    <script src="clickCounter.js"></script>
+  </body>
+</html>
